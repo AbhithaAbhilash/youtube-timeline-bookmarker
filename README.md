@@ -56,5 +56,4 @@ youtube-timeline-bookmarker/
 5. Select the youtube-timeline-bookmarker folder
 6. Open any YouTube video and click the extension 🎉
 
-## 📁 Project Structure
 
