@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Timeline Bookmarker",
+  "version": "1.0",
+  "description": "Bookmark timestamps in YouTube videos",
+  "permissions": ["tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
